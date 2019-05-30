@@ -21,7 +21,7 @@
             <h1>Descifrador de mensajes</h1>
             <p style="white-space: pre-line;">{{ cifrado }}</p>
             <div id="cadenaOriginal">
-                <textarea v-model="message" class="w-100" @keyup.down="codificado" ></textarea>
+                <input class="w-100" @keyup.enter="codificador" v-model="message" type="text">
             </div>
             <br>
             
