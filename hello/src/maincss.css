@@ -1,0 +1,17 @@
+*, html, body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainContainer{
+    margin: auto;
+    margin: 10vh auto;
+    height: 80vh;
+    background-color: #eeeeee;
+    font-size: 22px;
+    padding: 10%;
+}
+
+#cadenaOriginal{
+    width: 80%;
+    margin: 10%;
+}
